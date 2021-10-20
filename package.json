@@ -1,7 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/@gp0320/*"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/1340326961/lerna.git",
+  "author": "wb_hujianrui <wb_hujianrui@meituan.com>",
+  "license": "MIT"
 }
