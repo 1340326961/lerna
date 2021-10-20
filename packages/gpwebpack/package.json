@@ -1,5 +1,5 @@
 {
-  "name": "gpwebpack",
+  "name": "gpwebpackasdfksakdfjs",
   "version": "0.0.3",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,5 @@
     "daybyday": "^0.0.1",
     "react": "^17.0.2"
   },
-  "gitHead": "dc8c82deccb9916feb2153211b3fa54e32b347a5"
+  "gitHead": "056f3b1f4afc38ab715b8889ce9b70b327d4fbce"
 }
