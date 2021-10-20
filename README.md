@@ -108,12 +108,17 @@ yarn + workspaces模式
 ### lerna clean
 
     删除所有包的node_modules目录
-    
+
 ### lerna changed
     列出下次发版lerna publish 要更新的包。
 
-
-
+### lerna publish
+会打tag，上传git,上传npm。 如果你的包名是例如："name": "@gp0320/gpwebpack", 那需要在packages.json添加
+```
+"publishConfig": {
+    "access": "public"
+  },
+```
 
 
 
