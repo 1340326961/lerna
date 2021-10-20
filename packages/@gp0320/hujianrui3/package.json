@@ -22,5 +22,9 @@
   },
   "bugs": {
     "url": "https://github.com/1340326961/lerna/issues"
+  },
+  "gitHead": "e6624d55015fc9ed9c7b3cb188182b5a7578c4dd",
+  "publishConfig": {
+    "access": "public"
   }
 }
