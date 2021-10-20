@@ -1,6 +1,6 @@
 {
   "name": "temp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "干就完了",
   "keywords": [
     "key"
@@ -24,7 +24,7 @@
     "url": "https://github.com/1340326961/lerna/issues"
   },
   "dependencies": {
-    "daybyday": "^1.0.0",
+    "daybyday": "^0.0.1",
     "react": "^17.0.2"
   }
 }
