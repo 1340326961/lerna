@@ -82,6 +82,43 @@ yarn + workspaces模式
     默认是npm i,因为我们指定过yarn，所以用的是 yarn install,会把所有包的依赖安装到根node_modules.
     且会让你可以 在 require() 中直接通过软件包的名称进行加载，就好像此软件包已经存在于 你的 node_modules 目录下一样。
 
+### lerna list
+    列出所有的包，如果与你文夹里面的不符，进入那个包运行yarn init -y解决
+    ```
+    daybyday
+    gpnode
+    gpwebpack
+    temp
+    lerna success found 4 packages
+    ```
+
+### lerna import
+
+    导入本地存在的包
+
+### lerna run
+    ```
+        lerna run < script > -- [..args] # 运行所有包里面的有这个script的命令
+        $ lerna run --scope my-component test   #单个包的 test
+    ```
+### lerna link
+
+    项目包建立软链，类似npm link
+
+### lerna clean
+
+    删除所有包的node_modules目录
+    
+### lerna changed
+    列出下次发版lerna publish 要更新的包。
+
+
+
+
+
+
+
+
 
 
 
